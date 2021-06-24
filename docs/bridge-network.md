@@ -36,12 +36,11 @@ Run below command to apply the changes we made to the netplan configuration file
 ```
 sudo netplan apply
 ```             
-Notes:
+### Notes:
 
 Reasons for using bonding if possible:
 Network Interface Bonding is a mechanism used in Linux servers which consists of binding more physical network interfaces in order to provide more bandwidth than a single interface can provide or provide link redundancy in case of a cable failure.
 
-![Image of bridge network for VMs]
-(https://github.com/wqhuang-ustc/terraform-kvm/blob/main/docs/images/bridge-network.png)
+![Image of bridge network for VMs](https://github.com/wqhuang-ustc/terraform-kvm/blob/main/docs/images/bridge-network.png)
     
 If you need to configure other network using netplan, check this link: https://netplan.io/examples/
