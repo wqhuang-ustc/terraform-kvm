@@ -5,6 +5,11 @@ This is a demo project to show how to create virtual machines on bare metal foll
 
 ## Prerequisites
 
+1. Physical machine with ubuntu:18.04 operation system.
+2. IP address for the virtual machine in the adtoox firewall.
+3. Create bridge network.
+4. Manage the disk allocation to isolate different environments
+
 ## Step 1: Install KVM hypervisor on ubuntu:18.04 host machine
 
 ## Step 2: Install Terraform
