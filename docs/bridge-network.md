@@ -1,3 +1,4 @@
+# Bridge network for KVM virtual machines
 A linux bridge behaves like a network switch. It forwards packets between interfaces that are connected to it. It is used for forwarding packets on routers, on gateways, or between VMs and network namespaces on a host.
 
 This bridge network will be used by guest VMs to connected directly to the LAN, so that those guest VMs are reachable within the internal network.
